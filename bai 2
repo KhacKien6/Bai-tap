@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+	
+	int a,b,c;
+	
+	printf ("gia tri cua a la: %d \n",a);
+	scanf ("%d",&a);
+	
+	printf ("gia tri cua b la: %d \n",b);
+	scanf ("%d",&b);
+	
+	printf ("gia tri cua c la: %d",c);
+	scanf ("%d",&c);
+	
+	
+	if(a>b && a>c){
+		printf ("a la lon nhat \n");
+	}
+	
+	else if (b>a && b>c){
+	
+		printf ("b la lon nhat \n");
+	}
+	
+	else if(c>a && c>b){
+		printf ("c la lon nhat \n");
+	}
+	else{
+		printf ("a,b va c khong la gia tri duy nhat");
+	}
+	
+	
+	
+	return 0;
+}
